@@ -314,10 +314,6 @@ nav {
   text-decoration: none;
 }
 
-.pos {
-  margin: 0 auto;
-}
-
 /*#endregion Learn-more*/
 /*#region Contact-us*/
 .Contact-us {
@@ -557,6 +553,10 @@ footer {
   }
 }
 @media (max-width: 576px) {
+  .pos {
+    margin: 0 auto;
+  }
+
   .Boost img {
     margin-top: 0px;
   }

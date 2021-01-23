@@ -217,9 +217,6 @@ nav {
   @include textH2(#555555, left);
   text-decoration: none;
 }
-.pos {
-  margin: 0 auto;
-}
 
 /*#endregion Learn-more*/
 
@@ -428,6 +425,9 @@ footer {
   }
 }
 @media (max-width: 576px) {
+  .pos {
+    margin: 0 auto;
+  }
   .Boost img {
     margin-top: 0px;
   }
