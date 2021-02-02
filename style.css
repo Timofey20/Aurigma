@@ -133,7 +133,7 @@ nav {
   margin-bottom: 20px;
 }
 
-#btn-main {
+.btn-primary {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -207,7 +207,7 @@ nav {
   width: 60px;
   height: 60px;
   right: 1%;
-  top: 919px;
+  bottom: 1%;
   z-index: 100;
 }
 

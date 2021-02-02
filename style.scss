@@ -93,7 +93,7 @@ nav {
   @include text;
   margin-bottom: 20px;
 }
-#btn-main {
+.btn-primary {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -141,7 +141,7 @@ nav {
   width: 60px;
   height: 60px;
   right: 1%;
-  top: 919px;
+  bottom: 1%;
   z-index: 100;
 }
 
@@ -359,24 +359,19 @@ footer {
     border: none;
   }
   #collapseOne {
-    // width: 194px;
     min-width: 161px;
   }
   #collapseTwo {
     min-width: 161px;
-    // width: 194px;
   }
   #collapseThree {
     min-width: 161px;
-    // width: 194px;
   }
   #collapseFour {
     min-width: 161px;
-    // width: 194px;
   }
   #collapseFive {
     min-width: 161px;
-    // width: 194px;
   }
 }
 @media (max-width: 992px) {
